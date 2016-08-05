@@ -1,10 +1,14 @@
 {
   "name": "babel-plugin-transform-bluebird-co",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "replace promise with bluebird and co with co-bluebird",
   "main": "lib",
+  "files": [
+    "lib"
+  ],
   "scripts": {
-    "test": "mocha --require babel-register"
+    "test": "mocha --require babel-register",
+    "build": "babel src --out-dir lib --source-maps"
   },
   "keywords": [
     "babel",
