@@ -75,7 +75,7 @@ export default (babel) => {
 
       // found "var xx = require('xx')"
       VariableDeclarator(path){
-        if(path.node.init.type === 'CallExpression'&& path.node.init.callee.name === 'require' && path.node.init.arguments.length && path.node.init.arguments[0].value == 'co'){
+        if(path.node && path.node.init && path.node.init.type === 'CallExpression'&& path.node.init.callee.name === 'require' && path.node.init.arguments.length && path.node.init.arguments[0].value == 'co'){
           const {
             memberExpression,
             callExpression,
