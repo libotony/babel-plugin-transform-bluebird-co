@@ -1,0 +1,31 @@
+{
+  "name": "babel-plugin-transform-bluebird-co",
+  "version": "0.1.0",
+  "description": "replace Promise with bluebird and co with co-bluebird",
+  "main": "lib",
+  "scripts": {
+    "test": "mocha --require babel-register"
+  },
+  "keywords": [
+    "babel",
+    "babel-plugin",
+    "Promise",
+    "bluebird",
+    "co",
+    "bluebird-co"
+  ],
+  "author": "tony.li",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.11.4",
+    "babel-eslint": "^6.1.2",
+    "babel-plugin-transform-es2015-destructuring": "^6.9.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.11.5",
+    "babel-register": "^6.11.6",
+    "bluebird": "^3.4.1",
+    "bluebird-co": "^2.1.2",
+    "eslint": "^3.1.1",
+    "mocha": "^2.5.3",
+    "q": "^1.4.1"
+  }
+}
