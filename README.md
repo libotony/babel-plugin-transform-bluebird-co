@@ -11,7 +11,7 @@ Installation
 ---
 ```bash
 npm install bluebird bluebird-co --save
-npm install babel-plugin-transform-bluebird-co transform-async-to-module-method --save-dev
+npm install babel-plugin-transform-bluebird-co babel-plugin-transform-async-to-module-method --save-dev
 ```
 
 ## Usage
